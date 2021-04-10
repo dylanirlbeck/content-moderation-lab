@@ -76,11 +76,3 @@ Some example questions that could follow the programming component are:
 
 - **Why did you not use real Facebook/Twitter data?**
   - As we were constructing this assignment, we had to consider what was most appropriate for our audience. At a university, and especially at a large one like UIUC, students come from all walks of life. A significant portion of the content on Facebook -- and particularly the types of posts we’d need to include in our dataset -- would likely be extremely graphic, offensive, or both. We concluded that in order to provide all students with an optimal and safe learning experience, we should aim for our dataset and assignment to be neutral, while still being as illustrative as possible. We hope that we achieve this balance, but if you feel there is a different way we could set up the assignment, please let us know!
-
-## Related Work
-
-TODO
-
-## Acknowledgements
-
-TODO
