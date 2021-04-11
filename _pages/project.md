@@ -6,6 +6,14 @@ index: 2
 nav: true
 ---
 
+<h1>The Project</h1>
+
+**Ethical Moderation** is a programming-based ethics project for students, by students. The project description
+and code is completely open-source by design: we want to be part of a larger wave of revamped ethics education in computer science. We encourage instructors to incorporate this lab into their course; we challenge students to improve their ethical capacities by engaging with the project’s material; and, more broadly, we welcome anyone curious or concerned with content moderation to think hard about how it can and should be done.
+
+<h4>Table of Contents</h4>
+<div id="toc"></div>
+
 ## Background
 
 **Content moderation** is the act of vetting user-generated content (UGC) that is regarded as irrelevant, obscene, illegal,
@@ -33,14 +41,14 @@ moderation, and it doesn’t seem like any platform has found the right balance.
 But given its impact on society, the mechanics of content moderation must be constantly discussed. And given how many future computer
 scientists will work on services that allow for UGC, it is imperative that ethics courses cover content moderation.
 
-## The Project
+## The Task
 
-[Fancy title] is a project designed to have students critically think about the ethics of content moderation. It is a programming-based
+**Ethical Moderation** designed to have students critically think about the ethics of content moderation. It is a programming-based
 ethics assignment, and is designed to be completed individually. In addition, we provide questions designed to be discussed in groups or
 through short papers after students complete the programming assignment. We _highly_ recommend that instructors integrate these non-technical
 components into the completion of this project.
 
-### Learning Objectives:
+### Learning Objectives
 
 The learning objectives for this project are:
 
@@ -49,13 +57,13 @@ The learning objectives for this project are:
 - Consider the challenges that modern platforms face when performing content moderation.
 - Understand the impact that content moderation (or lack thereof) has on users.
 
-### Description:
+### Description
 
 TODO
 
 This is an equation: $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$.
 
-### Questions:
+### Questions
 
 Some example questions that could follow the programming component are:
 

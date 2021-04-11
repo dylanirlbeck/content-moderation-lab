@@ -9,7 +9,6 @@ layout: default
     <!-- </h1> -->
     <p class="desc">{{ page.description }}</p>
   </header>
-
   <article>
     {% if page.profile %}
     <div
@@ -43,4 +42,11 @@ layout: default
     </div>
     {% endif %}
   </article>
+
+  <script src="{{site.baseurl}}/assets/js/toc.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#toc").toc();
+    });
+  </script>
 </div>
