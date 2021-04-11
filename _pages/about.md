@@ -3,12 +3,6 @@ layout: about
 title: about
 index: 1
 permalink: /
-
-profile:
-  align: center
-  image: al-folio-preview.png
-  address: >
-    <p>TODO add picture and caption</p>
 ---
 
 # About
@@ -24,7 +18,7 @@ to ethical philosophy and logical argumentation, then proceeds to discuss topics
 and intellectual property. These topics are taught primarily through lectures and discussion sections. Weekly essays
 are also assigned to have students think critically about the topics at hand and explicate their perspectives in writing.
 
-But what became clear to Ryan Cunningham, the professor for CS210, was that students felt a disconnect between the highly-technical
+But what became clear to Ryan Cunningham, the professor for CS210 (and our mentor), was that students felt a disconnect between the highly-technical
 content of their core CS classes and the non-technical structure of their lone ethics course. In other words, there existed a
 noticeable gap between CS210 and the rest of the curriculum. Ryan sought to remedy this, and over time he introduced two programming-based
 labs -- in data ethics and security vulnerabilities -- that have, what we are calling, emergent properties. Emergent properties are

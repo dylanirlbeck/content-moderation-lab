@@ -41,15 +41,18 @@ scientists will work on services that allow for UGC, it is imperative that ethic
 
 ## Learning Objectives
 
-**Ethical Moderation** designed to have students critically think about the ethics of content moderation. It is a programming-based
-ethics assignment, and is designed to be completed individually. In addition, we provide questions designed to be discussed in groups or
-through short papers after students complete the programming assignment. We _highly_ recommend that instructors integrate these non-technical
-components into the completion of this project.
+**Ethical Moderation** is designed to have students grapple with the ethical issues at play in content moderation. It is a programming-based
+ethics assignment, designed to be completed individually. That said, we provide various questions -- after each programming section and upon completion
+of the lab -- to be discussed in groups or through short papers. We _highly_ recommend that instructors include these verbal and/or written components 
+in the assigned work for this project. If you're completing this lab individually, we recommend taking time to reflect on the questions and answer them for yourself; everyone approaches ethical dilemmas with a unique
+perspective, but it is important to be able to articulate where you stand and why.
 
 Keeping this in mind, the **learning objectives** for this project are:
 
 - Learn different ways in which content moderation can be performed and
 - Compare and contrast the efficacy of each approach, from a technical, and ethical perspective.
+- Articulate when and why human moderation is needed, and understand the
+  tradeoffs between automated and human review.
 - Consider the challenges that modern platforms face when performing content moderation.
 - Understand the impact that content moderation (or lack thereof) has on users.
 
@@ -161,4 +164,21 @@ Some example questions that could follow the programming component are:
 ## FAQ
 
 - **Why did you not use real Facebook/Twitter data?**
-  - As we were constructing this assignment, we had to consider what was most appropriate for our audience. At a university, and especially at a large one like UIUC, students come from all walks of life. A significant portion of the content on Facebook -- and particularly the types of posts we’d need to include in our dataset -- would likely be extremely graphic, offensive, or both. We concluded that in order to provide all students with an optimal and safe learning experience, we should aim for our dataset and assignment to be neutral, while still being as illustrative as possible. We hope that we achieve this balance, but if you feel there is a different way we could set up the assignment, please let us know!
+  - As we were constructing this assignment, we had to consider what was most appropriate for our audience. At a 
+  university, and especially at a large one like UIUC, students come from all walks of life. A significant portion 
+  of the content on Facebook -- and particularly the types of posts we’d need to include in our dataset -- would likely 
+  be extremely graphic, offensive, or both. We concluded that in order to provide all students with an optimal and safe 
+  learning experience, we should aim for our dataset and assignment to be neutral, while still being as illustrative as 
+  possible. We hope that we achieve this balance, but if you feel there is a different way we could set up the assignment, 
+  please let us know!
+
+- **How did you gather the project data?**
+  - The data is pulled from Reddit, specifically from the subreddits r/sports and r/politics. To
+    create the dataset, we merged a subset of posts from each subreddit
+    together, assigning on-topic labels for the posts from r/sports and
+    off-topic labels to the posts from r/politics. As mentioned earlier, there
+    are a number of interesting posts that may be labeled as off-topic, but may
+    actually be on-topic for *SportIt*(and vice-versa for posts labeled as
+    on-topic) -- it is our hope that students see
+    these interesting patterns and think critically about the effects of
+    either removing posts from a platform or not.

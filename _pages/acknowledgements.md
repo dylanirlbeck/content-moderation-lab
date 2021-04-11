@@ -22,4 +22,4 @@ was inspired by countless researchers and advocates at other universities. Here
 are just of the people and work we've drawn upon:
 
 - [Embedded EthiCS](https://embeddedethics.seas.harvard.edu/)
-- [Casey Fiesler](https://caseyfiesler.com/) and, in particular, her paper,[ _Integrating Ethics into Introductory Programming Classes_ ](https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf)
+- [Casey Fiesler](https://caseyfiesler.com/), and in particular her paper,[ _Integrating Ethics into Introductory Programming Classes_ ](https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf)
