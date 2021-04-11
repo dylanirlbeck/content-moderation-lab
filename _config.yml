@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 author: CS210 Staff
-name: Content Moderation Lab # the website title (if blank, full name will be used instead)
-title: Content Moderation Lab
+name: Ethical Moderation # the website title (if blank, full name will be used instead)
+title: Ethical Moderation
 footer_text: >
   See a typo, have a question, and/or want to make this project better? Check out our <a href="https://github.com/dylanirlbeck/content-moderation-lab">GitHub</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /content-moderation-lab # the subpath of your site, e.g. /blog/
+baseurl: /ethical-moderation
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
