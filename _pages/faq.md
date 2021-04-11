@@ -21,9 +21,9 @@ you have others, please [let us know!](https://dylanirlbeck.github.io/ethical-mo
     please let us know!
 
 - **How did you gather the project data?**
-  - The data is pulled from Reddit, specifically from the subreddits r/sports and r/politics. To
-    create the dataset, we merged a subset of posts from each subreddit
-    together, assigning on-topic labels for the posts from r/sports and
+  - The data is pulled from the r/politics subreddit and ESPN news headlines.
+    create the dataset, we merged a subset of posts from each  source
+    together, assigning on-topic labels for the posts from ESPN and
     off-topic labels to the posts from r/politics. As mentioned earlier, there
     are a number of interesting posts that may be labeled as off-topic, but may
     actually be on-topic for _SportIt_(and vice-versa for posts labeled as
