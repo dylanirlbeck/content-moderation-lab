@@ -1,6 +1,7 @@
 ---
 layout: acknowledgements
 title: acknowledgements
+index: 3
 permalink: /acknowledgements/
 nav: true
 ---
