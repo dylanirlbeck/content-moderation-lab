@@ -6,7 +6,7 @@ index: 2
 nav: true
 ---
 
-<h1>Project</h1>
+<h1>The Project</h1>
 
 **Ethical Moderation** is a programming-based ethics project for students, by students. The project
 is completely open-source by design: we want to be part of a larger wave of revamped ethics education in computer science. We encourage instructors to incorporate this lab into their course; we challenge students to improve their ethical capacities by engaging with the project’s material; and, more broadly, we welcome anyone curious or concerned with content moderation to think hard about how it can and should be done.
@@ -160,26 +160,3 @@ Some example questions that could follow the programming component are:
 - How do you balance human review in content moderation? How, if at all, does human review differ if you are a big company or a small one?
 - Is there an “optimal” way to moderate content? Are there any best practices that any company maintaining UGC could apply?
 - To what degree should speech be moderated? Should there be legal protections for speech on these platforms?
-
-## FAQ
-
-- **Why did you not use real Facebook/Twitter data?**
-
-  - As we were constructing this assignment, we had to consider what was most appropriate for our audience. At a
-    university, and especially at a large one like UIUC, students come from all walks of life. A significant portion
-    of the content on Facebook -- and particularly the types of posts we’d need to include in our dataset -- would likely
-    be extremely graphic, offensive, or both. We concluded that in order to provide all students with an optimal and safe
-    learning experience, we should aim for our dataset and assignment to be neutral, while still being as illustrative as
-    possible. We hope that we achieve this balance, but if you feel there is a different way we could set up the assignment,
-    please let us know!
-
-- **How did you gather the project data?**
-  - The data is pulled from Reddit, specifically from the subreddits r/sports and r/politics. To
-    create the dataset, we merged a subset of posts from each subreddit
-    together, assigning on-topic labels for the posts from r/sports and
-    off-topic labels to the posts from r/politics. As mentioned earlier, there
-    are a number of interesting posts that may be labeled as off-topic, but may
-    actually be on-topic for _SportIt_(and vice-versa for posts labeled as
-    on-topic) -- it is our hope that students see
-    these interesting patterns and think critically about the effects of
-    either removing posts from a platform or not.

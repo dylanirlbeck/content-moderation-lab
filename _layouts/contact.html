@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1>Contact</h1>
+
+  {% for member in site.data.team.Team %}
+
+  <br />
+  <div class="instructor-profile-two-col">
+    <a href="{{ member.url }}" target="_blank"
+      ><img src="{{ member.image | prepend: '/assets/img/' | relative_url }}"
+    /></a>
+    <ul class="instructor-info">
+      <li>
+        {{ member.name }}
+      </li>
+      <li>
+        <span>Email:</span>
+        <!-- <a href="mailto:{{ member.email | encode_email }}" target="_blank"> -->
+        <!--   {{ member.email }} -->
+        <!-- </a> -->
+        {{member.email}}
+      </li>
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+<div>
+  <article>
+    {{ content }}
+  </article>
+</div>

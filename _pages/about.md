@@ -32,4 +32,12 @@ demonstrates the positive impact of embedding ethics into programming assignment
 As undergraduates, we felt strongly that programming-based ethics is a powerful way to learn about ethical dilemmas in computing.
 And so, we sought out to introduce a new programming assignment into CS210, focused on the ethics of content moderation.
 
----
+## Related Work
+
+This project, and our larger ethics initiative at the University of Illinois,
+was inspired by countless researchers and advocates at other universities. Here
+are just of the people and work we've drawn upon:
+
+- [Casey Fiesler](https://caseyfiesler.com/), and in particular her paper, [Integrating Ethics into Introductory Programming Classes](https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf)
+- [Embedded EthiCS](https://embeddedethics.seas.harvard.edu/)
+- [How to make a racist AI without really trying](http://blog.conceptnet.io/posts/2017/how-to-make-a-racist-ai-without-really-trying/)
