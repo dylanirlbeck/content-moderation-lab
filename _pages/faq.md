@@ -12,7 +12,6 @@ We anticipate that you have questions. Here are some that may come to mind; if
 you have others, please [let us know!](https://dylanirlbeck.github.io/ethical-moderation/contact/)
 
 - **Why did you not use real Facebook/Twitter data?**
-
   - As we were constructing this assignment, we had to consider what was most appropriate for our audience. At a
     university, and especially at a large one like UIUC, students come from all walks of life. A significant portion
     of the content on Facebook -- and particularly the types of posts we’d need to include in our dataset -- would likely
