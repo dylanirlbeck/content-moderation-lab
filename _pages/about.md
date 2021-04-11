@@ -1,8 +1,9 @@
 ---
 layout: about
 title: about
-index: 1
-permalink: /
+index: 3
+nav: true
+permalink: /about
 ---
 
 # About
@@ -32,13 +33,3 @@ As undergraduates, we felt strongly that programming-based ethics is a powerful 
 And so, we sought out to introduce a new programming assignment into CS210, focused on the ethics of content moderation.
 
 ---
-
-**Ethical Moderation** is a programming-based ethics assignment for students, by students. The project is
-completely open-source by design: we want to be part of a larger wave of revamped ethics education in computer science.
-We encourage instructors to incorporate this lab into their course; we challenge students to improve their ethical
-capacities by engaging with the project’s material; and, more broadly, we welcome anyone curious or concerned with content
-moderation to think hard about how it can and should be done.
-
-This project is open to and encourages feedback. The [lab](https://github.com/dylanirlbeck/hackillinois-2021) and [website](https://github.com/dylanirlbeck/content-moderation-lab) code is open-source, and we (the project’s creators) welcome emails.
-
-Without further ado, we present: [Ethical Moderation](https://dylanirlbeck.github.io/ethical-moderation/project).
