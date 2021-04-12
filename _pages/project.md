@@ -131,7 +131,7 @@ moderation algorithm will likely choose to remove this post. Why does this happe
 you with a training corpus of off-topic posts. Many of these posts discussed politics, and Colin Kaepernick has been a controversial figure due to his history of
 kneeling for the national anthem.
 
-**Question #1: How may content moderation algorithms may create involuntary censorship, and who it might effect in the case of _SportIt_?**
+**Question #1: How may content moderation algorithms may create unintentional censorship, and who it might effect in the case of _SportIt_?**
 
 ### Part 3: Introducing Human Content Moderation
 
