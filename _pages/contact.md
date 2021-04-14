@@ -13,4 +13,4 @@ were mentored by [Ryan Cunningham](https://cs.illinois.edu/about/people/all-facu
 a lecturer at the University of Illinois.
 
 We want to thank the staff for putting on such a well-run, virtual event, and we
-especially want to thank Ryan for encouraging us to rigorously pursue this work.
+especially want to thank Ryan for encouraging us to assiduously pursue this work.

@@ -23,10 +23,11 @@ But what became clear to Ryan Cunningham, the professor for CS210 (and our mento
 content of their core CS classes and the non-technical structure of their lone ethics course. Ryan sought to remedy this, and over time he introduced two programming-based
 labs -- in data ethics and security vulnerabilities -- that have, what we are calling, _emergent properties_. Emergent properties are
 learnings that reveal themselves gradually, and at different times for every student. For example, the data ethics lab teaches students
-how one could build a racist AI without knowing; the emergent property in this case would be, of course, the danger of biased
-training data in machine learning. These properties are a unique feature of programming-based ethics assignments, allowing students
-to establish the technical connections necessary to approach their work as computer scientists through an ethical lens. To this end,
-a recent paper by Fieslel et al., [Integrating Ethics into Introductory Programming Classes](https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf),
+how one could, unintentionally, build a racist AI; the emergent property in this case would be, of course, the danger of biased
+training data in machine learning. In the context of CS ethics, these properties are a unique feature of programming assignments. By
+grounding ethics instruction in programming tasks, we believe that students can
+make stronger connections between code and the relevant ethical risks; forging these connections early will allow, in our opinion, students
+to view their work as computer scientists through an ethical lens. To this end, a recent paper by Fieslel et al., [Integrating Ethics into Introductory Programming Classes](https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf),
 demonstrates the positive impact of embedding ethics into programming assignments on student engagement and subject matter retention.
 
 As undergraduates, we felt strongly that programming-based ethics is a powerful way to learn about ethical dilemmas in computing.
