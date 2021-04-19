@@ -4,4 +4,4 @@
 
 This repository houses the website code. The site was built with [Jekyll](https://jekyllrb.com/) and we used the [al-folio template](https://github.com/alshedivat/al-folio) as a base.
 
-If you're looking for the project code, you can be found [here](https://github.com/dylanirlbeck/ethical-moderation-lab).
+You can find the project code [here](https://github.com/dylanirlbeck/ethical-moderation-lab).
