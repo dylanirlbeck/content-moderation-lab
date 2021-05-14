@@ -8,7 +8,7 @@ nav: true
 
 If you'd like to get in touch about this project, we welcome emails!
 
-This project was originally built at [HackIllinois 2021](https://hackillinois.org/). We
+This project was originally built at [HackIllinois 2021](https://devpost.com/software/ethical-moderation). We
 were mentored by [Ryan Cunningham](https://cs.illinois.edu/about/people/all-faculty/rcunnin2),
 a lecturer at the University of Illinois.
 
