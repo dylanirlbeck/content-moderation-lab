@@ -110,37 +110,11 @@ plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
 
 # Extras
 github: [metadata]
-
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
-scholar:
-
-  last_name: Einstein
-  first_name: [Albert, A.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Optional Features
