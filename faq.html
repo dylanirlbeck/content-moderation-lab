@@ -10,7 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>
-  Ethical Moderation
+  Ethical Moderation | faq
 </title>
 <meta name="description" content="Ethical Moderation is a programming project that forces students to grapple with the ethics of content moderation." />
 
@@ -73,7 +73,7 @@
 
 <link
   rel="canonical"
-  href="/ethical-moderation/blog/"
+  href="/ethical-moderation/faq"
 />
 
 <!-- JQuery -->
@@ -157,9 +157,11 @@
             </a>
           </li>
             
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/ethical-moderation/faq">
               faq 
+              <span class="sr-only">(current)</span>
+              
             </a>
           </li>
             
@@ -187,17 +189,59 @@
 
     <div class="container mt-5">
       <div class="post">
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
-
-  <ul class="post-list">
+  <header class="post-header">
+    <!-- <h1 class="post-title"> -->
+    <!--  Ethical Moderation -->
+    <!-- </h1> -->
+    <p class="desc"></p>
+  </header>
+  <article>
     
-  </ul>
 
-  
+    <div class="clearfix">
+      <h1 id="faq">FAQ</h1>
 
+<p>We anticipate that you have questions. Here are some that may come to mind; if
+you have others, please <a href="https://dylanirlbeck.github.io/ethical-moderation/contact/">let us know!</a></p>
+
+<ul>
+  <li><strong>Why did you not use real Facebook/Twitter data?</strong>
+    <ul>
+      <li>As we were constructing this assignment, we had to consider what was most appropriate for our audience. At a
+university, and especially at a large one like UIUC, students come from all walks of life. A significant portion
+of the content on Facebook – and particularly the types of posts we’d need to include in our dataset – would likely
+be extremely graphic, offensive, or both. We concluded that in order to provide all students with an optimal and safe
+learning experience, we should aim for our dataset and assignment to be neutral, while still being as illustrative as
+possible. We hope that we achieve this balance, but if you feel there is a different way we could set up the assignment,
+please let us know!</li>
+    </ul>
+  </li>
+  <li><strong>How did you gather the project data?</strong>
+    <ul>
+      <li>The data is pulled from the r/politics subreddit and ESPN news headlines.
+create the dataset, we merged a subset of posts from each  source
+together, assigning on-topic labels for the posts from ESPN and
+off-topic labels to the posts from r/politics. As mentioned earlier, there
+are a number of interesting posts that may be labeled as off-topic, but may
+actually be on-topic for <em>SportIt</em>(and vice-versa for posts labeled as
+on-topic) – it is our hope that students see
+these interesting patterns and think critically about the effects of
+either removing posts from a platform or not.</li>
+    </ul>
+  </li>
+</ul>
+
+    </div>
+
+      
+  </article>
+
+  <script src="/ethical-moderation/assets/js/toc.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#toc").toc({ noBackToTopLinks: false });
+    });
+  </script>
 </div>
 
     </div>

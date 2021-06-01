@@ -10,7 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>
-  Ethical Moderation
+  Ethical Moderation | about
 </title>
 <meta name="description" content="Ethical Moderation is a programming project that forces students to grapple with the ethics of content moderation." />
 
@@ -73,7 +73,7 @@
 
 <link
   rel="canonical"
-  href="/ethical-moderation/blog/"
+  href="/ethical-moderation/about"
 />
 
 <!-- JQuery -->
@@ -138,9 +138,11 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- <!-1- About -1-> -->
-          <!-- <li class="nav-item "> -->
+          <!-- <li class="nav-item active"> -->
           <!--   <a class="nav-link" href="/ethical-moderation/"> -->
           <!--     about  -->
+          <!--     <span class="sr-only">(current)</span> -->
+          <!--      -->
           <!--   </a> -->
           <!-- </li> -->
           <!-- Other pages -->
@@ -151,9 +153,11 @@
             </a>
           </li>
             
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/ethical-moderation/about">
               about 
+              <span class="sr-only">(current)</span>
+              
             </a>
           </li>
             
@@ -187,17 +191,66 @@
 
     <div class="container mt-5">
       <div class="post">
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
-
-  <ul class="post-list">
+  <header class="post-header">
+    <!-- <h1 class="post-title"> -->
+    <!--  Ethical Moderation -->
+    <!-- </h1> -->
+    <p class="desc"></p>
+  </header>
+  <article>
     
-  </ul>
 
-  
+    <div class="clearfix">
+      <h1 id="about">About</h1>
 
+<p>Over the last decade, computer science programs across the world have had to face the question: are we training ethically-competent
+computer scientists? The need for ethics training in computer science curricula is, of course, unquestionable. Seemingly every day,
+there are new controversies caused by new technologies, technology companies, and/or technologists. But teaching ethics is necessarily
+difficult, and it is especially so for a field that has only recently begun to grapple with its impact on society.</p>
+
+<p>At the University of Illinois Urbana-Champaign (UIUC), ethics is currently delivered through a standalone course,
+<a href="https://cs.illinois.edu/academics/courses/cs210">CS210: Ethics &amp; Professional Issues</a>, which is required for all engineering majors. This course begins with an introduction
+to ethical philosophy and logical argumentation, then proceeds to discuss topics such as privacy, professional ethics,
+and intellectual property. These topics are taught primarily through lectures and discussion sections. Weekly essays
+are also assigned to have students think critically about the topics at hand and explicate their perspectives in writing.</p>
+
+<p>But what became clear to Ryan Cunningham, the professor for CS210 (and our mentor), was that students felt a disconnect between the highly-technical
+content of their core CS classes and the non-technical structure of their lone ethics course. Ryan sought to remedy this, and over time he introduced two programming-based
+labs – in data ethics and security vulnerabilities – that have learnings which reveal themselves gradually, and at different times for every student. For example, the data ethics lab teaches students
+how one could, unintentionally, build a racist AI; the learning in this case would be, of course, the danger of biased
+training data in machine learning. In the context of CS ethics, these learnings are a unique feature of programming assignments. By
+grounding ethics instruction in programming tasks, we believe that students can
+make stronger connections between code and the relevant ethical risks; forging these connections early will allow, in our opinion, students
+to view their work as computer scientists through an ethical lens. To this end, a recent paper by Fieslel et al., <a href="https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf">Integrating Ethics into Introductory Programming Classes</a>,
+demonstrates the positive impact of embedding ethics into programming assignments on student engagement and subject matter retention.</p>
+
+<p>As undergraduates, we felt strongly that programming-based ethics is a powerful way to learn about ethical dilemmas in computing.
+And so, we sought to introduce a new programming assignment into CS210, focused on the ethics of content moderation.</p>
+
+<h2 id="related-work">Related Work</h2>
+
+<p>This project, and our larger ethics initiative at the University of Illinois,
+was inspired by countless researchers and advocates at other universities. Here
+are just of the people and work we’ve drawn upon:</p>
+
+<ul>
+  <li><a href="https://caseyfiesler.com/">Casey Fiesler</a>, and in particular her paper, <a href="https://cmci.colorado.edu/~cafi5706/SIGCSE2021_IntegratingEthics.pdf">Integrating Ethics into Introductory Programming Classes</a></li>
+  <li><a href="https://embeddedethics.seas.harvard.edu/">Embedded EthiCS</a></li>
+  <li><a href="http://ethics.cs.brown.edu/#section-mission">Brown Responsible CS</a></li>
+  <li><a href="http://blog.conceptnet.io/posts/2017/how-to-make-a-racist-ai-without-really-trying/">How to make a racist AI without really trying</a></li>
+</ul>
+
+    </div>
+
+      
+  </article>
+
+  <script src="/ethical-moderation/assets/js/toc.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#toc").toc({ noBackToTopLinks: false });
+    });
+  </script>
 </div>
 
     </div>
