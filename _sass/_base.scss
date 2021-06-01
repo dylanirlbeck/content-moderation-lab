@@ -376,3 +376,17 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+.clickable-header {
+  cursor:pointer;
+}
+.clickable-header:hover {
+  text-decoration:underline;
+}
+.top-level-header {
+  display:inline;
+}
+.back-to-top {
+  margin-left:5px;
+  cursor:pointer;
+}

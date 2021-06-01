@@ -6,15 +6,6 @@
 // Dimensions
 $max-content-width: {{site.max_width}};
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill",
-  "profile"
-;
-
 .clickable-header {
   cursor:pointer;
 }
@@ -28,3 +19,14 @@ $max-content-width: {{site.max_width}};
   margin-left:5px;
   cursor:pointer;
 }
+
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "profile"
+;
+
+
