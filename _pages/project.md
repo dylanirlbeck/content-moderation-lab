@@ -56,7 +56,7 @@ Keeping this in mind, the **learning objectives** for this project are:
 - Consider the challenges that modern platforms face when performing content moderation.
 - Understand the impact that content moderation (or lack thereof) has on users.
 
-## Task
+## Introduction
 
 _Sport-It_ is a popular social media platform known for its unique, sports-based community. Over the last few months,
 _Sport-It_ has been rapidly growing in scale: the daily active users (DAUs) increased by 200% in the last month alone!
@@ -67,12 +67,12 @@ These moderators are very intentional about their moderation: they only allow po
 and cooking, for example, are not allowed on _Sport-It_. They’ve directed you to write software that removes all posts not directly
 related to sports.
 
-### Part 0: Grab the Code
+## Part 0: Grab the Code
 
 The code for this project can be found [here](https://github.com/dylanirlbeck/hackillinois-2021). The relevant code is contained inside a Jupyter
 Notebook, and we provide several utilities to do probability calculation and accuracy checking.
 
-### Part 1: "Naive" Moderation
+## Part 1: "Naive" Moderation
 
 Your first task is to use Naive Bayes, a simple and well-known machine learning algorithm, to classify users’ posts as either
 on-topic or off-topic. The reviewers at _Sport-It_ figured you’d use some sort of machine learning, so they’ve provided you with
@@ -113,7 +113,7 @@ want to err on the side of caution and label the post as off-topic.
 
 **Once you've finished this part, your content moderation accuracy should be at about 90*%.***
 
-### Part 2: The Consequences of Naivety
+## Part 2: The Consequences of Naivety
 
 The algorithm you have just implemented is known as a **bag-of-words** algorithm. Notice that our algorithm only accounts for the
 presence of words. It does not account for any order or structure the post may have. Simply put, we consider each post as a
@@ -133,7 +133,7 @@ you with a training corpus of off-topic posts. Many of these posts discussed pol
 
 **Question #1: How may content moderation algorithms unintentionally censor content, and who might it effect in the case of _SportIt_? What about on other platforms?**
 
-### Part 3: Introducing Human Content Moderation
+## Part 3: Introducing Human Content Moderation
 
 It is now time to modify the naive content moderation algorithm to better handle “edge cases”; that is, posts which have aspects of
 being on-topic and off-topic. SportIt moderators want you to specifically gather posts whose difference in probability falls within

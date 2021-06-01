@@ -15,8 +15,16 @@ $max-content-width: {{site.max_width}};
   "profile"
 ;
 
-// div#toc {
-//     padding: 10px;
-//     border: 1px solid #aaa;
-//     display: inline-block !important;
-// }
+.clickable-header {
+  cursor:pointer;
+}
+.clickable-header:hover {
+  text-decoration:underline;
+}
+.top-level-header {
+  display:inline;
+}
+.back-to-top {
+  margin-left:5px;
+  cursor:pointer;
+}
